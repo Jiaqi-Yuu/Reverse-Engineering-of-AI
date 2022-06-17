@@ -29,4 +29,5 @@ I will provide more details in the future.
 
 # Reference
 [1] Seong Joon Oh, Max Augustin, Bernt Schiele, and Mario Fritz. Towards Reverse-Engineering Black-Box Neural Networks. arXiv:1711.01768 [cs, stat], February 2018. arXiv: 1711.01768.
+
 [2] Laurens Van der Maaten and Geoffrey Hinton. Visualizing data using t-sne. Journal of machine learning research, 9(11), 2008.
