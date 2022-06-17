@@ -2,7 +2,7 @@
 With its commercialization, machine learning as a service (MLaaS) is becoming more and more popular, and providers are paying more attention to the privacy of models and the protection of intellectual property. Generally speaking, the machine learning service deployed on the cloud platform is a black box, where users can only obtain outputs by providing inputs to the model. The attributes of the model such as architecture, training set, training method, are concealed by provider. In this work, we devise a multi-discriminator generative adversarial network(MDGAN) to learn domain invariant features. Based on these features, we can learn a domain-free model to inversely infer the attributes of a target black-box model with unknown training data. The experiments consume a lot of computing resources, so I provide some prepared data. I only show part of this work.
 
 # Requirement
-pytorch == 1.10.2
+PyTorch == 1.10.2
 
 # Run
 ```python
