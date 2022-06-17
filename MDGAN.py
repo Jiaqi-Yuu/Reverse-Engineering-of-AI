@@ -1,9 +1,3 @@
-'''
-    file name: model.py
-    create time: 3/26/2022
-    modify time: 3/26/2022 19:36
-'''
-
 from colorsys import rgb_to_hls
 import imp
 import torch
