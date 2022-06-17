@@ -15,6 +15,9 @@ The 'prepared_outputs_train(cartoon&sketch)' contains 10000 models' outputs(5000
 The inputs is 100 queries listed in 'save_query(cartoon&sketch)'
 With the data prepared in advance, the training efficiency of the model is greatly improved!
 
+# PACS
+PACS is an image dataset that has been widely used for OOD(out of distribution) learning. We utilize three domains, including Photo(1,670 images), Cartoon(2,344 images) and Sketch(3,929 images), to construct our dataset. Each domain contains 7 categories(Dog, Elephant, Giraffe, Guitar, Horse, House, Person).
+
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/09d6adbbc16e4aaeadd44b30525cfe4c.jpeg#pic_center)
 
@@ -23,3 +26,7 @@ To verify the effectiveness of our proposed method, we utilize t-SNE to visualiz
 
 # future
 I will provide more details in the future.
+
+# Reference
+[1] Seong Joon Oh, Max Augustin, Bernt Schiele, and Mario Fritz. Towards Reverse-Engineering Black-Box Neural Networks. arXiv:1711.01768 [cs, stat], February 2018. arXiv: 1711.01768.
+[2] Laurens Van der Maaten and Geoffrey Hinton. Visualizing data using t-sne. Journal of machine learning research, 9(11), 2008.
