@@ -13,6 +13,7 @@ python train.py
 We pretrained a number of models which are constructed by enumerating all posible attribute values. The details of the attributes and their values are shown in Table1. We sample 5000, 1000 from white-box models as the training set and testing set. 
 The 'prepared_outputs_train(cartoon&sketch)' contains 10000 models' outputs(5000 from cartoon, 5000 from sketch). This file is very large, so you need to unzip it.
 The inputs is 100 queries listed in 'save_query(cartoon&sketch)'
+
 With the data prepared in advance, the training efficiency of the model is greatly improved!
 
 # PACS
