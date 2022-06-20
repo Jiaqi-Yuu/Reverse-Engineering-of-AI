@@ -18,11 +18,10 @@ The inputs is 100 queries listed in 'save_query(cartoon&sketch)'
 
 With the data prepared in advance, the training efficiency of the model is greatly improved!
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/09d6adbbc16e4aaeadd44b30525cfe4c.jpeg#pic_center)
+
 # PACS
 PACS is an image dataset that has been widely used for OOD(out of distribution) learning. We utilize three domains, including Photo(1,670 images), Cartoon(2,344 images) and Sketch(3,929 images), to construct our dataset. Each domain contains 7 categories(Dog, Elephant, Giraffe, Guitar, Horse, House, Person).
-
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/09d6adbbc16e4aaeadd44b30525cfe4c.jpeg#pic_center)
 
 # Tsne_show
 To verify the effectiveness of our proposed method, we utilize t-SNE to visualize samples in the domain invariant feature spave learnt by the generator G in MDGAN. The visualization is carried out on PACS-modelset. As shown in figure, samples from the three different domains are grouped into individual clusters at the 1st epoch. Our method embeds features from the unseen domain and the samples from the target domain also become closer to the source domains at 20th epoch, indicating that our generator is able to generalize an unseen domain into the feature space where the source domains are in.
